@@ -1,0 +1,40 @@
+.gotocart {
+    // border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    a {
+        color: #fff;
+        background-color: red;
+        padding: 6px 30px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        &:hover {
+            color:#fff;
+        }
+    }
+    .cart-btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.redButton {
+    text-transform: uppercase;
+    margin-top: 8px;   
+    background: red;
+    font-weight: 600;
+    padding: 5px 10px !important;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    width: 200px !important;
+
+    &:hover {
+        color: #fff;
+        background: red;
+    }
+}

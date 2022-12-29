@@ -1,0 +1,55 @@
+.case_details {
+
+    .cemenet_type{
+
+        div {
+            font-size: 12px !important;
+            color: #fff;
+        }
+
+        .cement-sec {
+            justify-content: flex-end;
+        }
+
+        .sc_cement {
+            background-color: black;
+        }
+    } 
+
+    .section-item {
+        
+        h4 {
+            span {
+                font-size: 18px;
+            }
+        }
+
+        span {
+            font-size: 14px;
+        }
+
+        strong {
+            font-size: 14px;
+        }
+
+        .col-md-2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    .attachment_img_item {
+        text-align: center;
+         
+        img {
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: black;
+            text-transform: capitalize;
+        }
+    }
+
+    
+}

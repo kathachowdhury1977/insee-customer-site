@@ -1,0 +1,57 @@
+.payment-detail-box{
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #d2d2d2;
+    padding: 0px 15px;
+    float: left;
+    min-width: 100%;
+    .noBankFound {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .overdueDays {
+        padding: 0 80px;
+    }
+    .right-align {
+        text-align: right;
+        max-width: 110px;
+    }
+
+    .textDark{
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    .bgNoText {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 75ch;
+    }
+
+    .textLight{
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        color: #000;
+        font-weight: 500;
+
+        span{
+            font-size: 12px;
+            font-weight: 600;
+            color: #000;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+    }
+
+    .bottom-line{
+        border-bottom: 1px solid #bfbfbf;
+    }
+}

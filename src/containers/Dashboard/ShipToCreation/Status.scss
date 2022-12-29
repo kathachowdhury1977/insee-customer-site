@@ -1,0 +1,101 @@
+.status_section {
+    margin: 10px 25px;
+
+    .status_head {
+        width:100%;
+        background-color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        a {
+            float: right;
+            background-color: red;
+            color:#fff;
+            padding: 7px 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+
+    .approval {
+        margin: 15px 0px;
+        button {
+            border: 0px;
+            
+            color:#fff;
+            width: 100%;
+            padding: 21px;
+            text-transform: uppercase;
+            font-size: 18px;
+            border-radius: 20px;
+            
+        }
+
+        .pending {
+            background-color:#f59a32;
+        }
+    
+        .rejected{
+            background-color: #ff0000;
+        }
+    
+        .approved {
+            background-color: #23cf8f;
+        }
+
+    }
+}
+
+.map-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main-box {
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+    .heading {
+        font-weight: 600;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+
+
+    .box-item {
+        margin-bottom: 15px;
+        p {
+            font-size: 11px;
+            color:#929292;
+            margin: 0px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
+
+.back-btn {
+    border: 0px;
+    background-color: red;
+    color: #fff;
+    padding: 5px 40px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,146 @@
+.user_profile_card {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  position: relative;
+  .user_type {
+    width: 100px;
+    height: 18px;
+    background: linear-gradient(180deg, #A20000 0%, #ED0000 93.06%);
+    border-radius: 8px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    left:0;
+  }
+
+  .user_profile_section {
+      .col-12
+      {
+        position: relative;
+        .imgs_sec {
+          position: absolute;
+          left: calc(50% - 81px/2 - 0.5px);
+          top: -30%;
+        }
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            left: 4.39%;
+            right: 78.61%;
+            top: 14.11%;
+            bottom: 12.83%;
+            position: absolute;
+        }
+  
+        i {
+          position: absolute;
+          left: 60px;
+          top: 55px;
+          background-color: #ff0000;
+          color: #fff;
+          font-size: 10px;
+          padding: 5px;
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+
+      .currentYear {
+        position: absolute;
+    right: 2px;
+    top: -41%;
+    background: red;
+    padding: 5px 30px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+    }
+      
+      .userinfo_sec
+      {
+        text-align: center;
+        margin: 3% 0 0 0;
+        position: relative;
+      
+
+      h4 {
+        font-size: 22px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: normal;
+        color: #454545;
+      }
+
+      .user_no_id {
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        color: #363636;
+        display: block;
+      }
+
+      .user_address {
+          font-size: 14px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+         letter-spacing: normal;
+         color: #363636;
+        display: block;
+      }
+    }
+  }
+
+
+
+  .details_sec {
+      .title {
+        color:#929292;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .value {
+        color:#000;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+      }
+  }
+}
+.viewretailersButton
+{
+  width: 160px;
+  background: #000000;
+  border-radius: 8px;
+}
+.viewshiptoButton
+{
+  width: 160px;
+ 
+  background: #000000;
+  border-radius: 8px;
+}

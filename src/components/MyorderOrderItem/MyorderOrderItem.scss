@@ -1,0 +1,277 @@
+.newIcon {
+  position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Rectangle-2205 {
+  width           : 1045px;
+  height          : 952px;
+  margin          : 14px 0 0 195px;
+  padding         : 12px 23px 155px 28px;
+  border-radius   : 10px;
+  background-color: #ffffff;
+}
+
+.Rectangle-2231 {
+  height          : auto;
+  flex-grow       : 2;
+  padding         : 8.3px 15px 7.7px 12.6px;
+  border          : solid 1px #f1f1f1;
+  background-color: #f0f0f0;
+  @media (max-width: 900px) {
+    height: 100%;
+  }
+
+  // span{
+  //   margin: 0px 20px;
+  // }
+}
+
+.PO-No-1287586 {
+  // height        : 26px;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-stretch  : normal;
+  font-style    : normal;
+  font-weight   : 500;
+  line-height   : 1.3;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+}
+
+.SO-Status-Under-progress {
+  // height        : 26px;
+  font-weight   : 500;
+  flex-grow     : 0;
+  font-size     : 13px;
+  font-stretch  : normal;
+  font-style    : normal;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+  text-overflow : ellipsis;
+  white-space   : nowrap;
+  overflow      : hidden;
+}
+
+.SO-No-1208767 {
+  // height        : 26px;
+  flex-grow     : 0;
+  font-size     : 11px;
+  font-stretch  : normal;
+  font-style    : normal;
+
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+  font-weight   : 500;
+}
+
+.SO-No-1208768 {
+  height        : auto;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-stretch  : normal;
+  font-style    : normal;
+
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+  font-weight   : 600;
+}
+
+.SO-Date-12102020 {
+  // height        : 26px;
+  flex-grow     : 0;
+  font-weight   : 500;
+  font-size     : 11px;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.3;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+}
+
+.Plant-Thap-Kwang-Thailand {
+  // height        : 26px;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.3;
+  letter-spacing: normal;
+  text-align    : left;
+  font-weight   : 500;
+  color         : #000000;
+}
+
+.Order-Type-Credit {
+  // height        : 26px;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.2;
+  letter-spacing: normal;
+  text-align    : left;
+  font-weight   : 500;
+  color         : #000000;
+  span
+  {
+    text-transform: uppercase;
+    color: #FFA500;
+  }
+  
+}
+
+.totalRemainingQuantity {
+  font-size: 12px;
+    color: red;
+    float: right;
+    padding-top: 8px;
+}
+
+.Rectangle-2232 {
+  height          : auto;
+  flex-grow       : 0;
+  padding         : 18.9px 11px 18.9px 10px;
+  border          : solid 1px #f1f1f1;
+  background-color: #ffffff;
+  @media (max-width: 900px) {
+    height: 100%;
+  }
+}
+
+.image-1 {
+  width    : auto;
+  height   : 38.7px;
+  flex-grow: 0;
+  margin   : 0 11px 0.4px 0;
+}
+
+.product_name {
+  height        : 28px;
+  flex-grow     : 0;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #ff0000;
+  text-overflow : ellipsis;
+  // white-space   : nowrap;
+  overflow      : visible;
+
+ 
+  .freeProduct {
+    padding-right: 5px;
+   
+  }
+
+  span, strong {
+    font-size: 12px;
+  }
+  @media (max-width: 900px) {
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.product_id {
+  height        : 28px;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-weight   : 500;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 2;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #454545;
+}
+
+.TON {
+  height        : 35px;
+  flex-grow     : 0;
+  font-size     : 12px;
+  font-weight   : normal;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 2;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+}
+
+.Rectangle-110 {
+  // height          : 31px;
+  margin          : 0.3px 0 0;
+  padding         : 4px 11px 4px 10px;
+  background-color: #f1f1f1;
+  @media (max-width: 900px) {
+    height: 100%;
+  }
+}
+
+.Total-Amount-50000 {
+  height        : 21px;
+  font-size     : 13px;
+  font-weight   : 500;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #000000;
+  @media (max-width: 900px) {
+    height: 100%;
+  }
+}
+
+.QTY-40 {
+  height        : 21px;
+  font-size     : 13px;
+  font-weight   : 500;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : normal;
+  letter-spacing: normal;
+  text-align    : right;
+  color         : #000000;
+  @media (max-width: 900px) {
+    height: 100%;
+    margin-top: 0px;
+  }
+}
+
+.create_btn_order {
+  background-color: red;
+  color           : #fff;
+  padding         : 2px 22px;
+  font-size       : 12px;
+  text-transform  : uppercase;
+  margin-left     : 15px;
+  font-weight     : bold;
+  border-radius   : 4px;
+  border          : none;
+  @media (max-width: 900px) {
+    padding: 11px 8px;
+    font-size: 9px;
+    margin-left: 0;
+  }
+}
+
+.create_btn_order:focus {
+  outline: none !important;
+}
+
+.Rectangle-1 {
+  cursor          : pointer;
+  height          : 23px;
+  border-radius   : 6px;
+  background-color: #ff0000;
+}

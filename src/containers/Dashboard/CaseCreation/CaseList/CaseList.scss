@@ -1,0 +1,135 @@
+.create_list {    
+
+    .form-control {
+        border:0px;
+
+       
+    }
+
+    .btn-danger {
+        background-color: red;
+        padding:  8px 50px;
+    }
+
+    .align-items-center {
+
+        .form-control  {
+            border: 0px;
+            padding: 0.2rem 0.5rem;
+            font-size: 15px;
+            height: 38px;
+
+        }
+
+        .btn-light {
+            padding: 0.2rem 0.5rem;
+        }
+    }
+
+    .input-date {
+        width: inherit;
+        height: 31px !important;
+        border-radius: 0px !important;
+        border: 0px;
+    }
+
+    .inputBox {
+        select {
+            padding: 0px !important;
+            height: 31px !important;
+            border-radius: 0px !important;
+            border:0px;
+            text-transform: capitalize;
+        }
+    }
+
+    
+}
+.margin-top{
+    margin-top:2%;
+}
+.create_list_item {
+
+    .cemenet_type {
+        a {
+            font-size: 12px !important;
+        }
+
+        .sc_cement {
+            background-color: #000;
+        }
+    }
+
+    .progress-sec {
+        margin-left: 13px;
+    }
+ 
+    .process-type {
+        min-height: auto !important;
+        p {
+            color: #929292;
+        }
+
+        span {
+            color: #000;
+        }
+    }
+}
+
+.product_sectionBox{
+    width: 100%;    
+    height: 460px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    h1{
+        font-size: 18px;
+    } 
+
+        .inputBox{
+
+            label{
+                display: block;
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+            .input{
+                position: relative;
+                width: 100% !important
+                ;
+                font-size: 12px;
+                height: 20px;
+                padding-left: 0px;
+            }
+        }
+    }
+
+    .rectangleContainer {
+        display: flex;
+        
+    }
+    .rectangle {
+        width: 20%;        
+        text-align: center;
+        margin: 0 3px 0 0;
+        padding: 15px 0 3px;
+        border-radius: 6px;
+        border: solid 1px #c4c4c4;
+        background-color: #f1f1f1;
+    }
+    .cards {
+        // width: 48% !important;
+        // min-width: 48%;
+        margin: 10px 0px;
+        padding: 11px 13px 11px 11px;
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15) !important;
+        background-color: #ffffff;
+    }
+
+    .caseDetail:hover {
+        cursor: pointer;
+    }

@@ -1,0 +1,176 @@
+.ship_to_about {
+    margin-top: -15px;
+
+    .plan-detail-card-container {
+
+        .detail_card {
+            background-color: #ccc;
+        }
+
+        .detail_title {
+            color:black;
+        }
+
+        .address,.number,.high_head {
+            color: black;
+        }
+    }
+}
+
+.step_section{
+    background-color: #fff;
+    padding: 10px;
+
+    h5 {
+        margin: 25px 0px;
+        font-weight: 600;
+        color:#3f51b5;
+        font-size: 18px;
+    }
+}
+
+rect {
+    fill:#2f5189;
+}
+
+text {
+    fill: #7d7d7d;
+}
+
+.bar_graph{
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+
+    .head_sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 54px;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: normal;
+        color:#000;
+        margin-bottom: 0px;
+    }
+
+    .order_summry {
+        font-size: 14px;
+        color:#2f5189;
+    }
+
+    .status {
+        color:#fff;   
+        border-radius: 4px;
+        padding: 5px 7px;
+        font-size: 12px;
+
+    }
+
+    .pending {
+        background-color:#f59a32;
+    }
+
+    .rejected{
+        background-color: #ff0000;
+    }
+
+    .approved {
+        background-color: #23cf8f;
+    }
+}
+
+.bottom_sec {
+    height: 54px;
+    border-top: 1px solid #ccc;
+   padding: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+
+   span {
+       font-size: 12px;
+       color:#929292;
+       letter-spacing: 0.3px;
+   }
+
+   b{
+       color:black;
+   }
+}
+
+.reject_section {
+    border-top: 1px solid #ccc;
+    margin-top: 0px;
+
+    .reject_head_sec {
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        h6 {
+            font-size: 14px;
+            color:#929292;
+        }
+
+        i {
+            float: right;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.container-fluid{
+    .main-box-container{
+        width: 100%;
+    
+        .box-container-left{
+            width: 40% !important;
+            float: left !important;
+
+            .product_brand_section{
+                margin-bottom: 0px;
+            }
+        }
+    
+        .box-container-right{
+            width: 60% !important;
+            float: left !important;
+            padding-left: 8px !important;
+
+            .product_brand_section{
+                margin-bottom: 0px;
+            }
+
+            .ThirdRow{
+                width: 100% !important;
+                display: flex;
+
+                .boxbody-leftchild{
+                    width: 50%;
+                }
+    
+                .boxbody-rightchild{
+                    width: 50%;
+                    padding-left: 8px !important;
+                }
+            }
+
+           
+           
+        }
+    }
+}
+

@@ -1,0 +1,106 @@
+
+
+    .order_list {
+        margin-bottom: 30px;
+        position: relative;
+       
+
+        .productItem {
+            position: relative;
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            border-radius: 4px;
+            padding: 11px;
+            box-sizing: border-box;
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;
+            .itemLoader {            
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+                background: #fff;
+                opacity: 0.5;
+            .orderLoader {
+                margin: 80px 0;
+            }
+        }
+        .item-img {
+            max-width: 180px;
+            height: auto;
+            width: 100%;
+            max-height: 160px;
+        }
+
+        }
+        .cart-flag{
+            background-color: #23cf8f;
+            padding: 2px;
+            width: auto;
+            height: 20px;
+            position: absolute;
+            border-radius: 4px 0px 0px 0px;
+        }
+        .add-shoping-cart
+        {
+            color: red;
+            position: absolute;
+            right: 1%;
+            top: 1%;
+            border: 1px solid;
+            border-radius: 50%;
+            padding: 5px 5px 5px 5px;
+        }
+
+            .productCode {
+                margin-top: 10px;
+                font-size: 15px;
+                color: #000;
+                font-weight: 600;
+            }
+
+        .order_detail_sec {
+            margin-top: 10px;
+            min-height: 50px;
+            h5 {
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 0px;
+                text-transform: capitalize;
+                // min-height: 40px;
+                // max-height: 40px;
+                // height: 40px;
+                // word-break: break-all;
+
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .desc {
+              font-size: 13px;
+              display: inherit;
+              line-height: 18px;
+              margin: 3px 0px 8px;
+              color:#929292;
+              text-transform: capitalize;
+             
+            }
+        }
+
+        .item_qty {
+            .count {
+                margin: 0px 15px;
+                font-size: 14px;
+            }
+
+            .item_weight {
+                font-size: 14px;
+                font-weight: 600;
+                float:right;
+            }
+        }
+    }

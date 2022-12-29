@@ -1,0 +1,31 @@
+.MyPointsContainer {
+  margin-top: 15px;
+  .TransReedContainer {
+    display: flex;
+    .MuiCardContent-root {
+      padding: 0;
+    }
+    .MyPointsFltrContainer {
+      .MuiFormControl-root {
+        width: 230px;
+      }
+      margin-top: 30px;
+    }
+  }
+  .ExpCardContainer {
+    margin-top: 20px;
+    display: flex;
+    .CarCon {
+      display: flex;
+      justify-content: space-evenly;
+      .ExpCard {
+        .MuiCardContent-root {
+          padding: 0;
+          height: 100px;
+          width: 200px;
+          margin: 3px;
+        }
+      }
+    }
+  }
+}

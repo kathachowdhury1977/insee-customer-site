@@ -1,0 +1,271 @@
+.product_heading{
+    font-size: 14px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454545;
+}
+
+.product_headingTwo{
+    text-align: right;
+    margin: 0px !important;
+
+    .spanOne{
+        color: #727272;
+        font-size: 14px !important;
+    }
+
+    .spanTwo{
+        color: #363636;
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+}
+
+.product_brand_item {
+    margin : 15px 0px;
+    h6 {
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        font-size: 11px !important;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        text-align: center !important;
+        color: #727272;          
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: #363636;
+        font-size: 13px !important;
+        font-weight: 600;
+        text-align: center !important;
+        text-transform: capitalize;
+    }
+}
+
+.borderBottom{
+    border-bottom: 1px solid #dcdcdc !important;
+}
+
+.marginBottom10{
+    margin: 10px 0px;
+}
+
+.product_bottom_item{
+    p{
+
+    a{
+        font-size: 12px;
+    }
+        margin-bottom: 0rem !important;
+
+       .lightText{
+        color: #727272;
+        font-size: 12px;
+       }
+
+       .darkText{
+        color: #363636;
+        font-size: 12px;
+        font-weight: 600;
+       }
+    }
+}
+
+.blueBoxContainer{
+    margin-top: 10px !important;
+
+    .marginBottom10{
+        margin-bottom: 10px !important;
+    }
+
+    .blueBox{
+        background-color: #142e8a;
+        border-radius: 12px;
+        text-align: center;
+        padding: 7px 0px;
+        margin: 0px 17px;
+    
+        .blueBox-text-top{
+            font-size: 15px !important;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 0rem !important;
+        }
+    
+        .blueBox-text-bottom{
+            font-size: 11px !important;
+            color: #ffffff;
+            margin-bottom: 0rem !important;
+        }
+    }
+
+    .blueBoxCase{
+        background-color: #142e8a;
+        border-radius: 6px;
+        text-align: center;
+        padding: 2px 0px;
+        margin: 0px 17px;
+
+        .blueBoxCase-text-top{
+            font-size: 15px !important;
+            color: #ffffff;
+            font-weight: 600;
+            margin-bottom: 0rem !important;
+        }
+    
+        .blueBoxCase-text-bottom{
+            font-size: 11px !important;
+            color: #ffffff;
+            margin-bottom: 0rem !important;
+        }
+    }
+
+    .blueBoxMMD{
+        background-color: #c15055;
+        border-radius: 6px;
+        text-align: center;
+        padding: 2px 0px;
+        margin: 0px 17px;
+
+        .blueBoxMMD-text-top{
+            font-size: 13px !important;
+            color: #ffffff;
+            margin-bottom: 0rem !important;
+        }
+    
+        
+    }
+}
+
+
+
+
+.product_brand_item_reward {
+    margin : 15px 0px;
+    h6 {
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        font-size: 11px !important;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        text-align: left !important;
+        color: #727272;          
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: #363636;
+        font-size: 13px !important;
+        font-weight: 600;
+        text-align: left !important;
+        text-transform: capitalize;
+    }
+}
+
+
+.rewardRed{
+    font-size: 100px !important;
+    margin-left: 0px !important;
+    color: red !important;
+}
+
+span{
+    .location-style{
+        color: #e6ac09 !important;
+        margin-left: 0px !important;
+    }
+}
+
+.ShipToInfoBox{
+    .product_headingThree{
+        color:blue;
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+
+    p{
+        margin-top: 15px !important;
+        line-height: 15px;
+
+         .lightText{
+            font-size: 12px;
+         }
+    }
+}
+
+
+.visitInfoBox{
+    .font-12{
+        font-size: 12px;
+    }
+
+    .product_headingTwo{
+        text-align: left !important;
+
+        .spanOne{
+            color: #363636;
+            font-size: 12px !important;
+            font-weight: 600;
+           
+        }
+    
+        .spanTwo{
+            color: #727272;
+            font-size: 11px !important;
+            font-weight: 100 !important;
+        }
+    }
+}
+
+
+.reailer-box{
+    .contactBox{
+        width:  100%;
+        margin-top: 7px;
+        display: flex;
+
+        .contactBoxLeft{
+            width: 16%;
+        }
+
+        .contactBoxRight{
+            width: 84%;
+
+            .boxLeft{
+                width: 40%;
+                float: left;
+            }
+
+            .boxRight{
+                width: 60%;
+                float: left;
+            }
+
+            .spanFrst{
+                font-size: 12px;
+                font-weight: 600;
+            }
+
+            .spanSecond{
+                font-size: 12px;
+            }
+
+            .spanThird{
+                font-size: 12px;
+
+                i{
+                    color: #c15055;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+

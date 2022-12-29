@@ -1,0 +1,29 @@
+.chart_sec {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 8px 1px #ccc;
+
+  span {
+    font-size: 13px;
+  }
+
+  .month-title {
+    color: #000;
+    font-weight: 600;
+  }
+
+  .month_item {
+    color: #929292;
+    margin-left: 2px;
+  }
+
+  .six_month_type {
+    color: red;
+    font-weight: 600;
+  }
+}
+
+// .MuiPaper-root {
+//     box-shadow: none !important;
+// }

@@ -1,0 +1,18 @@
+.multi-slider {
+    .MuiSlider-thumb {
+        width: 20px !important;
+        height: 20px !important;
+        margin-top: -7px;
+        background-color: #28a745 !important;
+        border: 0px !important; 
+    } 
+
+    .MuiSlider-rail {
+        height: 6px !important;
+    }
+
+    .MuiSlider-track {
+        height: 6px !important; 
+        background-color: #28a745 !important; 
+    }
+}

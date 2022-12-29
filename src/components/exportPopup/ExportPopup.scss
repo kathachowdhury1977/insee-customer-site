@@ -1,0 +1,36 @@
+.ExpClsIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.ExportDwnldBtnContainer {
+
+  // margin-top: 20px;
+  .ExpDwnldBtn {
+    margin-left: 25%;
+  }
+}
+
+.exportHeader {
+  background-color: #405ea8;
+  color: #ffffff;
+  padding: 4px 30px 4px 30px;
+}
+
+.tableContinerExport {
+  .css-og52vs-MuiTableCell-root.MuiTableCell-head {
+    padding: 4px !important;
+    white-space: nowrap;
+  }
+  // .css-1dydcym-MuiTableCell-root{
+  //   padding: 0px !important;
+  // }
+  .styledTableCell{
+    padding: 5px !important;
+  }
+
+  .exportPointer{
+    cursor: pointer;
+  }
+}

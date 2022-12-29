@@ -1,0 +1,37 @@
+.create_link {
+    margin-left: 15px;
+    justify-content: center;
+
+    .form_section {
+      padding: 30px 15px;
+    }
+
+    button {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 7px 30px;
+        color:#fff;
+        border:0px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    .cancel {
+      background-color: #000;
+    }
+
+    .create {
+      background-color: red;
+    }
+
+}
+
+.select_checkbox {
+  display: flex;
+  margin-bottom: 15px;
+
+  input {
+    float: left;
+    border-color:green;
+    margin-right: 15px;
+  }
+}

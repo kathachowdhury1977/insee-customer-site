@@ -1,0 +1,149 @@
+.incentivePayment {
+    .react-tabs__tab-list {
+        background-color: #fff;
+        width: max-content;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #929292 !important;
+
+
+    }
+
+
+    .react-tabs__tab--selected {
+        border-bottom: 0px !important;
+        background-color: #003d7d !important;
+        color: #fff !important;
+        position: relative;
+
+
+    }
+
+    .react-tabs__tab {
+        bottom: 0px;
+        width: auto !important;
+        padding: 8px 48px !important;
+        font-size: 15px;
+    }
+}
+
+.no_record_table {
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    height: calc(60vh - 20px);
+    font-size: 22px;
+    left: 40%;
+    text-align: center;
+    color: black;
+    clear: both;
+    position: absolute;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.redButton {
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 5px;
+    background: #ef0000;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 98%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    hover: {
+        color: #fff;
+        background: #ef0000;
+    }
+}
+
+.blackButton {
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-left: 5px;
+    background: black;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 98%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+    hover: {
+        color: #fff;
+        background: #ef0000;
+    }
+}
+
+.css-16601yu-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+    color: rgb(236, 205, 205) !important;
+    background: #eb3131 !important;
+}
+
+.headerSection {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.MuiAutocomplete-option {
+    font-size: 12px !important;
+}
+
+.remark {
+    font-size: 12px;
+}
+
+.remark-status {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.reportDatePicker {
+    .MuiInputBase-input {
+        padding-right: 0px !important;
+    }
+}
+
+.SelectRightPadding {
+    padding-right: 5px !important;
+}
+
+
+.MuiAutocomplete-root {
+
+    margin-top: 0px !important;
+}
+
+.reportInputText {
+    padding-top: 8px !important;
+
+    .MuiInputLabel-root {
+        font-size: 14px !important;
+        color: "gray" !important;
+    }
+}
+
+
+.selctStyle {
+    .MuiInputLabel-formControl {
+        font-size: 14px !important;
+        color: "gray" !important;
+    }
+}
+
+.MuiMenuItem-root{
+    font-size: 14px !important;
+}

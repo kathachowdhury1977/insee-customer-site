@@ -1,0 +1,38 @@
+.block_stepper {
+     
+    .MuiSlider-thumb {
+        background-color: red !important;
+        width: 20px !important;
+        height: 20px !important;
+        margin-top: -7px !important;
+        box-shadow: 2px 2px 3px #8a6565;
+    }
+
+    .MuiSlider-rail {
+        height: 6px !important;
+        background-color: #ccc !important;
+    }
+
+    .MuiSlider-track {
+        height: 6px !important;
+        background-color: #ff00006e !important;
+    }
+
+    .MuiTypography-root {
+        color: red !important;
+    }
+
+    
+}
+
+.ship_heading {
+    margin: 20px 0px;
+    span {
+        color: #000;
+        font-weight: 600;
+    }
+    .pick-color {
+        color: green;
+    }
+
+}

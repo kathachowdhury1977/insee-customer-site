@@ -1,0 +1,204 @@
+.Shipment_managment {
+    .createShipmentBtn
+    {
+        top: auto;
+        right: 20px;
+        bottom: 0px;
+        left: auto;
+        z-index: 999;
+        position: fixed;
+    }
+    .refresh-page
+    {
+        float: right;
+        position: absolute;
+        top: 24%;
+        right: 5%;
+        color: red;
+        cursor: pointer;
+    }
+     #selectedQtyMessage
+     {
+        padding: 5px 32px 10px 32px;
+        display: none;
+     }
+     .input_search
+     {
+        border-bottom: 1px solid #C4C4C4;
+        .react-search-field-button
+        {
+            border-left: none !important;
+        }
+     }
+	.react-tabs__tab-list {
+		background-color: #fff;
+		width: max-content;
+		border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+		border-bottom: 1px solid #929292 !important;
+        img.picupImg{
+            position:absolute;
+            left: 37%;
+            top: 22%;
+            @media (max-width: 900px) {
+                left: 18%;
+              }
+        }
+        img.deleveryImg{
+            position:absolute;
+            left: 58%;
+            top: 22%;
+            @media (max-width: 900px) {
+                left: 18%;
+              }
+        }
+	    
+	}
+    .checkbox-custom-label, .radio-custom-label{
+        position:absolute;
+        left: 60%;
+        @media (max-width: 900px) {
+            left: 30%;
+          }
+    }
+	
+	.react-tabs__tab--selected {
+		border-bottom: 0px !important;
+		background-color: #003d7d !important;
+		color:#fff !important;
+		position: relative;
+        img.picupImg{
+            position:absolute;
+            left: 38%;
+            top: 22%;
+            @media (max-width: 900px) {
+                left: 18%;
+              }
+        }
+        img.deleveryImg{
+            position:absolute;
+            left: 58%;
+            top: 22%;
+            @media (max-width: 900px) {
+                left: 18%;
+              }
+        }
+		
+	}
+
+	.react-tabs__tab {
+		bottom: 0px;
+		width: auto !important;
+		padding: 8px 48px !important;
+		font-size: 15px;
+	}
+}
+.createDel {
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.title_head {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: auto;
+    }
+
+    .col-5 {
+    display: flex;
+    align-items: center;}
+
+    .input-right {
+        display: inline-flex;
+
+        img {
+            margin-left: 15px;
+        }
+    }
+}
+
+.create_btn {
+       
+        background-color: red;
+        color: #fff;
+        padding: 7px 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-left: 15px;
+        font-weight: bold;
+        border-radius: 4px;
+
+        &:hover {
+            text-decoration: none;
+            color:#fff;
+        }
+
+}
+
+.create_ship {
+    padding: 0px 17px 25px;
+    // box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    // background-color: #efefef;
+
+}
+
+.search_with_radio {
+    padding-top: 12px;
+    box-shadow: 0px 1px 5px 1px #929292;
+}
+
+.Shipment_managment {
+    .react-tabs__tab-list{
+        width: 100% !important;
+    }
+
+    .react-tabs__tab{
+        bottom: 0px;
+        width: 50% !important;
+        background: #f5f6f9;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 46px;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+
+    .react-tabs__tab--selected {
+        border-bottom: 0px !important;
+        background-color: #003d7d !important;
+        color: #fff !important;
+    }
+}
+
+.error_message {
+    height: 31px;
+    line-height: 25px;
+    margin: 0 0 2px 1px;
+    padding: 1px 772.7px 1px 14.5px;
+    background-color: rgba(255, 0, 0, 0.2);
+    color:#ff0000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.shipto_address {
+    font-size: 14px;
+    margin-bottom: 20px;
+    p {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,100 @@
+.vehicle_management_section
+{
+    .table-responsive{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    table.table {
+        width: 100%;
+      th {
+        background: #F0F0F0;
+        border: 1px solid #F1F1F1;
+        box-sizing: border-box;
+      }   
+      td,th{
+          text-align: center;
+          font-size: 14px;
+      }   
+    } 
+    .action {
+        position: relative;
+    }
+    .action i.fa-pencil{
+        position: absolute;
+        left: 4%;
+        right: 55%;
+        cursor: pointer;
+        
+    }
+    .action i.fa-trash{
+        position: absolute;
+        right: 40%;
+        cursor: pointer;
+    }
+    .vm_button_section
+    {
+        position: relative;
+        text-align: center;
+        .add-more-btn
+        {
+            position: absolute;
+            left: 30.84%;
+            right: 45.22%;
+            top: 38.05%;
+            bottom: 58.18%;
+            background: #FF0000;
+            color: #fff;
+            box-shadow: 0px 4px 8px rgba(211, 38, 38, 0.25);
+            border-radius: 6px;
+            padding: 20px 90px 40px 90px;
+        }
+        .save-btn
+        {
+            /*position: absolute;*/
+            left: 57.29%;
+            right: 18.77%;
+            top: 38.05%;
+            bottom: 58.18%;
+            padding: 10px 90px 21px 90px;
+            background: #FF0000;
+            color: #fff;
+            box-shadow: 0px 4px 6px #D9D9D9;
+            border-radius: 6px;
+        }
+    }
+
+    .customer_profile {
+        margin: 15px;
+ 
+        .main-heading {
+         background-color: #fff;
+         padding: 15px;
+            h5 {
+              
+               font-weight: 600;
+               color: #454545;
+               font-size: 18px;
+            }
+        }
+    }
+ 
+    .form_information {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.35);
+        margin: 10px 0px;
+        padding: 15px;
+ 
+        .form_title {
+            color: #003d7d;
+            font-weight: 600;
+        }
+ 
+        .add_more {
+            float: right;
+            margin-top: -32px;
+            cursor: pointer;
+        }
+    }
+}
+

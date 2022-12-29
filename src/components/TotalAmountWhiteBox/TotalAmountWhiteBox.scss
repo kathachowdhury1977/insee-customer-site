@@ -1,0 +1,24 @@
+.totalamount_box{
+    width: 100%;
+    margin-top: 0px;
+
+    .smallText{
+        font-size: 11px !important;
+        color: #727272 !important;
+        text-transform: uppercase;
+    }
+
+    .bigText{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+    }
+
+    .bg-warning, .bg-dark, .bg-success, .bg-danger{
+        font-size: 12px;
+        color: #fff;
+        padding: 3px;
+        border-radius: 3px;
+        text-transform: capitalize;
+    }
+}

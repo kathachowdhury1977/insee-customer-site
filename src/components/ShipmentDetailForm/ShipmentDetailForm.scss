@@ -1,0 +1,53 @@
+.create_link {
+    margin-left: 15px;
+
+    button {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 7px 30px;
+        color:#fff;
+        border:0px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+    .cancel {
+      background-color: #000;
+    }
+
+    .create {
+      background-color: red;
+    }
+}
+
+.float-right {
+  margin-top: -24px;
+  i{
+    cursor: pointer;
+  }
+}
+
+.ShipmentDetailsBtn
+{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  button.cancel
+  {
+    padding: 1% 8% 1% 8%;
+    background: #000000;
+    border-radius: 6px;
+    color: #fff;
+  }
+  .update
+  {
+    padding: 1% 8% 1% 8%;
+    background: #FF0000;
+    border-radius: 6px;
+    color: #fff;
+  };
+  button:disabled,
+  button[disabled]{
+  
+    background-color: rgb(236, 127, 127);
+  }
+}

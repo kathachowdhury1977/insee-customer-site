@@ -1,0 +1,19 @@
+.orangeoutline_box_container{
+    border: 1px solid #f59a32;
+    border-radius: 10px;
+    background-color: #fff2e3;
+    margin: 2px;
+    padding: 6px 0 9px;
+
+    .orangeText{
+        color: #f59a32;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .blackText{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

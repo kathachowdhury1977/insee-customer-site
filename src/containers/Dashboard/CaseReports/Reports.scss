@@ -1,0 +1,109 @@
+.reports-landing-container{
+    padding: 0px 25px;
+    margin-bottom: 40px;
+
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color: #454545;
+    }
+
+    .form_section {
+        padding: 4px;
+
+        .inputBox{
+            margin-bottom: 0px;
+
+            label{
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .fa{
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .blk-btn{
+            background-color:#000;
+            color: #fff;
+            padding: 7px 12px;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-left: 15px;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+    }
+
+    .case-dropdown-combo-container{
+        .form_section {
+            padding: 4px;
+    
+            .inputBox{
+                margin-bottom: 0px;
+    
+                label{
+                    font-size: 12px;
+                    margin-bottom: 0px;
+                }
+            }
+    
+        }
+    }
+
+    .case-dropdown-combo-container{
+        background-color: #f0f0f0;
+        border-radius: 3px;
+    }
+
+    .case-report-table{
+        table{
+            overflow-x: auto;
+            display: inherit;
+
+            tr th{
+                font-size: 13px;
+                font-weight: 500;
+                white-space: nowrap;
+            }
+
+            tbody tr td{
+                font-size: 13px;
+
+                span{
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+.reports-dashboard-container{
+    padding: 0px 25px;
+    margin-bottom: 40px;
+
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        color: #454545;
+    }
+
+}
+
+.case-report-childbox-container{
+    .form_section {
+        padding: 4px;
+
+        .inputBox{
+            margin-bottom: 0px;
+
+            label{
+                font-size: 12px;
+                margin-bottom: 0px;
+            }
+        }
+
+    }
+}

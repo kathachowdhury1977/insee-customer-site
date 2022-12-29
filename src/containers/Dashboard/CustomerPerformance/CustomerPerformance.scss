@@ -1,0 +1,32 @@
+.customer_performance_sec {
+    .Shipment_managment .react-tabs__tab-list {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    } 
+    
+    .network_section {
+        margin-top: 30px;
+        h5 {
+            font-size: 18px;
+        }
+        .sub_txt {
+            color: #929292;
+            font-size: 14px;
+        }
+    }
+
+    .formBox {
+        select {
+            height: auto !important;
+            padding: 0px !important;
+            width: 30%;
+            border:0px;
+            font-size: 20px;
+            border-bottom: 1px solid #929292;
+            border-radius: 0px !important;
+            padding-bottom: 10px !important;
+            margin: 15px 10px;
+        }
+    }
+}
+

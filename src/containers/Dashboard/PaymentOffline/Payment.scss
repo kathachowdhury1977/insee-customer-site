@@ -1,0 +1,228 @@
+.payment-history.card1 {
+    margin-top: 50px;
+}
+.payment-container{
+    // .offlineTab {
+    //     .react-tabs__tab-list {
+    //         width: 100%;
+    //         .react-tabs__tab {
+    //             width: 50%  !important;
+    //         }
+    //     }
+    // }
+    
+    width: 100%;
+    
+    .react-tabs__tab-list {
+		background-color: #fff;
+		width: 100%;
+		border-radius: 20px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+	
+	
+	}
+    .paymentInfo {
+        margin-top: 20px;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+    }
+    .payment_sec {
+        width: 100%;
+        margin-top: 15px;
+        .payment_header {
+            background: #f5f6f9;
+            padding: 15px 15px 0 15px;
+            h6 {
+                font-size: 14px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 26px;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000000;
+                margin: 0px;
+            }
+        }
+    }
+	
+	.react-tabs__tab--selected {
+		border-bottom: 0px !important;
+		background-color: #003d7d !important;
+		color:#fff !important;
+	
+		
+	}
+
+	.react-tabs__tab {
+		bottom: 0px;
+		width: 50% !important;	
+        background: #f5f6f9;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 46px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #828282;
+    
+    }
+
+    .bigText{
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+
+    .textLight{
+        font-size: 11px;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+        color: #8e8c8c;
+
+        span{
+            font-size: 12px;
+            font-weight: 600;
+            color: #000;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+    }
+
+    .top-line{
+        border-top: 1px solid #bfbfbf;
+    }
+
+    .smallText{
+        font-size: 12px;
+        color: #fff;
+    }
+    
+
+    
+}
+
+.create_btn {
+       
+    background-color: red;
+    color: #fff;
+    padding: 7px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+
+    &:hover {
+        text-decoration: none;
+        color:#fff;
+    }
+
+}
+
+.cancel_btn {
+   
+    background-color: #000;
+    color: #fff;
+    padding: 7px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+
+    &:hover {
+        text-decoration: none;
+        color:#fff;
+    }
+
+}
+
+
+
+.payment-history{
+    width: 100%;
+}
+
+.payment-summary{
+    width: 100%;
+
+    .bigHeading{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .scroll-box{
+        overflow-y: scroll;
+        max-height: 643px;
+    }
+
+    .makepayment_box_container{
+        .smallText{
+            font-size: 12px !important;
+            color: #fff !important;
+        }
+    
+        .bigText{
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            color: #fff !important;
+        }
+    }
+}
+
+
+.incentive-payment{
+    width: 100%;
+
+    // p{
+    //     font-size: 12px;
+    //     color: red;
+    // }
+
+    .react-tabs__tab-list {
+		background-color: #fff;
+		width: max-content;
+		border-radius: 20px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+		border: 2px solid #ffffff;
+        border: 0;
+		// border-bottom: 1px solid #aaa !important;
+	
+	}
+	
+	.react-tabs__tab--selected {
+		border-bottom: 0px !important;
+		background-color: #003d7d !important;
+		color:#fff !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+		
+	}
+
+	.react-tabs__tab {
+        background: #f5f6f9;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+		bottom: 0px;
+		width: auto !important;
+		padding: 8px 22px !important;
+        font-size: 14px;
+    }
+}
+
+.payment-history-details{
+    width: 100%;
+
+    .bigHeading{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .scroll-box{
+        overflow-y: scroll;
+        max-height: 800px;
+    }
+}

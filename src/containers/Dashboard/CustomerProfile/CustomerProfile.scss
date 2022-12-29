@@ -1,0 +1,50 @@
+.user_section {
+   .customer_profile {
+       margin: 15px;
+
+       .main-heading {
+        background-color: #fff;
+        padding: 15px;
+           h5 {
+             
+              font-weight: 600;
+              color: #454545;
+              font-size: 18px;
+           }
+       }
+   }
+
+   .form_information {
+       background-color: #fff;
+       border-radius: 8px;
+       box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.35);
+       margin: 10px 0px;
+       padding: 15px;
+
+       .form_title {
+           color: #003d7d;
+           font-weight: 600;
+       }
+
+       .add_more {
+           float: right;
+           margin-top: -32px;
+           cursor: pointer;
+       }
+   }
+
+}
+
+@media screen and (max-width: 1224px){
+    .user_profile_card .user_profile_section .userinfo_sec h4 {
+        margin-top: 36px; 
+    }
+ }
+
+@media screen and (max-width: 1024px){
+   .customer_profile {
+       .user_information .account_value h6 {
+        font-size: 14px;
+       }
+   }  
+}

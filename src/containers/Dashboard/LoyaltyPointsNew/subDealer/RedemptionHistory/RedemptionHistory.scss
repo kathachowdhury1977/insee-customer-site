@@ -1,0 +1,119 @@
+.ExportAndSearchContainer{
+    position:absolute;
+    display: flex;
+    right: 10px;
+}
+.Action{
+    .EditIcon{
+        margin-left: 20%;
+    }
+    .DeleteIcon{
+        margin-left: 20%;
+    }
+}
+.MarkDelChkBox{
+    // margin-left: 30%;
+}
+// re commit
+.user_image {
+    height: 42px;
+    width: 43px;
+    border-radius: 40%;
+    margin-right: 7px;
+}
+.ContactContainer{
+    margin: 2% 0 2% 0;
+    .AddAndSearch{
+        display:flex;
+        justify-content: space-between;
+        .AddContactBtn{
+            background-color: #FF0000;
+            color: #f5f5f5;
+        }
+        .ExportAndSearchContainer{
+            position:absolute;
+            display: flex;
+            right: 10px;
+        }
+    }
+
+}
+.DataGridContainer{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkBOxControl{
+    flex-wrap: wrap;
+    flex-direction: row !important;
+}
+
+.MuiFormControl-root.checkBOxControl .MuiCheckbox-root {
+    padding: 7px !important;
+}
+.makeStyles-root-1.MuiFormControl-root { 
+    margin-bottom: 9px !important;
+}
+
+.ControllForm {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    // margin-bottom: 10px !important;
+}
+.MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+    // margin-bottom: 10px !important;
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+    font-size: .80rem;
+    line-height: 1;
+}
+.user_image1{
+    height: 25px;
+    width: 25px;
+}
+.GridContainer .MuiFormControl-root{
+    margin-bottom: 10px !important;
+}
+.BtnSubContainer .SaveBtn{
+    background-color: #FF0000;
+    color: #f5f5f5;
+    margin-right: 36%;
+}
+.BtnSubContainer .SaveBtn:hover{
+    background-color: #FF0000;
+    color: #f5f5f5;
+}
+.MuiTablePagination-selectLabel{
+    margin-bottom: 0px !important;
+}
+.MuiTablePagination-displayedRows{
+    margin-bottom: 0px !important;
+}
+
+.MuiFormControl-root.subDealerCheckbox.css-1nrlq1o-MuiFormControl-root{
+    width: auto !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 7px;
+    span{
+        padding: 3px;
+    }
+}
+.Action .EditIcon{
+color:black
+}
+.css-k4qjio-MuiFormHelperText-root{
+    margin-left:0px
+}
+.GridContainer{
+    margin-right: 15px;
+    margin-top: 38px !important;
+}
+
+.MuiDataGrid-cell--withRenderer MuiDataGrid-cell MuiDataGrid-cell--textCenter{
+    text-decoration: underline;
+}

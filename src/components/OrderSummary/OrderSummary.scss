@@ -1,0 +1,98 @@
+.order_item {
+   
+   .item_sec {
+       border-bottom: 1px solid #eee;
+       padding-bottom: 5px;
+       margin-bottom: 7px;
+        span{
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .process {
+            color:green;
+        }
+   }
+
+   img {
+       width: 100%;
+       height: auto;
+   }
+
+   .title_sec {
+       font-size: 13px;
+       font-weight: 600;
+
+       p {
+           margin: 0px;
+          
+       }
+
+       span {
+           color:red
+       };
+   }
+
+   .quantity_sec {
+       text-align: center;
+       background-color: #eee;
+       padding: 5px;
+       border-radius: 5px;
+       
+        p {
+            margin: 0px;
+            font-size: 12px;
+            color: #000;
+            font-weight: 600;
+
+        }
+
+        span {
+            color:#929292;
+            text-transform: uppercase;
+            font-size: 11px;
+           
+        }
+   }
+
+   .amount_sec {
+       background-color: #eee;
+       padding: 5px;
+       span {
+           font-size: 14px;
+       }
+   }
+
+   .billing {
+       .col-6 {
+        margin-bottom: -7px;
+       }
+       span {
+           font-size: 10px;
+           
+       }
+   }
+
+   .submit {
+
+      margin-top: 15px;
+
+       button {
+           border:0px;
+           color:#fff;
+           padding: 6px 8px;
+           font-size: 11px;
+           font-weight: 600;
+           text-transform: uppercase;
+           width: 100%;
+           border-radius: 10px;
+       }
+
+       .delivery {
+           background-color: black;
+       }
+
+       .view {
+           background-color: red;
+       }
+   }
+}

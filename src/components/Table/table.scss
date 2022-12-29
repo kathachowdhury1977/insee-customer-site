@@ -1,0 +1,93 @@
+.table-resp {
+    table {
+        border: 1px solid #ccc;
+    }
+    .MuiTableCell-root {    
+       padding: 2px;
+        font-size: 12px;
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+    }
+
+    .MuiTableCell-head {
+        background-color: #ccc !important;
+        color: #000;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 7px;
+    }
+    .noBankFound {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        padding: 30px;
+    }
+
+    .MuiTableCell-alignRight {
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .add-payment {
+        .checkbox-custom-label {
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+            content: '';
+            background: #fff;
+            border: 1.6px solid #3f4241;
+            display: inline-block;
+            vertical-align: middle;
+            width: 15px;
+            height: 15px;
+            border-radius: 3px;
+            padding: 5px;
+            margin-right: 5px;
+            text-align: center;
+        }
+
+        .checkbox-custom:checked + .checkbox-custom-label:before {
+            background: #000 !important;
+            box-shadow: inset 0px 0px 0px 3px #fff;
+        }
+    }
+
+    .progress-color {
+        color: orangered;
+        text-transform: capitalize;
+    }
+
+    .sattled-color {
+        color: green;
+        text-transform: capitalize;
+    }
+
+    .receipt_action {
+        .fa-file-pdf-o {
+            font-size: 14px !important;
+        }
+        .fa {
+            font-size: 18px;
+            cursor: pointer;
+            margin: 0px 5px;
+            color: #929292;
+        }
+    }
+   
+    .total-payment {
+        background-color: #ccc;
+
+        h5{
+         color: #000;
+         font-size: 16px;
+         margin-top: 5px;
+         text-transform: capitalize;
+        } 
+    }
+}

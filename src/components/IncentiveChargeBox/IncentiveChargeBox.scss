@@ -1,0 +1,87 @@
+.invoice_charge_box_container{
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    background-color: #e4e4e4;
+    margin-top: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #d2d2d2;
+    padding: 15px;
+    float: left;
+    min-width: 100%;
+
+    .bg-warning, .bg-success, .bg-dark, .bg-danger{
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+
+        span{
+            font-size: 12px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+
+    
+
+    .textDark{
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .textLight{
+        font-size: 11px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        color: #8e8c8c;
+
+        span{
+            font-size: 12px;
+            font-weight: 600;
+            color: #000 !important;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+    }
+
+    .bottomLine{
+        border-top: 1px solid #bfbfbf;
+        // border-bottom: 1px solid #bfbfbf;
+        // padding-bottom: 10px;
+    }
+
+    input[type=checkbox]{
+        width: 13px;
+    }
+
+    .text-right{
+        .angleRight{
+            padding: 7px 15px;
+            border-radius: 18px;
+            background-color: #5d72a6;
+            cursor: pointer;
+
+            i{
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+
+        .angleDown{
+            padding: 7px 12px;
+            border-radius: 18px;
+            background-color: #5d72a6;
+            cursor: pointer;
+
+            i{
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+    }
+
+    
+}

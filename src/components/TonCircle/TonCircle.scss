@@ -1,0 +1,38 @@
+.circle_section {
+    margin-top: 30px;
+
+    ul {
+        display: inline;
+        li {
+            list-style-type: none;
+            float: left;
+            margin-right: 40px;
+            text-align: center;
+
+            label {
+                color: #003d7d;
+                font-size: 14px;
+                margin-left: 20px; 
+                font-weight: 600; 
+            }
+
+            .list_item{
+                border:3px solid rgb(140, 84, 255);
+                border-radius: 100%;
+                padding: 27px 3px;
+                font-size: 18px;
+                text-align: center;
+                width: 100px;
+                height: 100px;
+                color: #003d7d;
+                font-weight: 600;
+                
+
+                h6 {
+                 margin-bottom: 0px;
+                 width: 100%;
+                }
+            } 
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.mypoints-leftbox-container {
+    .parent-graybox {
+      background-color: #f0f0f0;
+      padding: 22px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .green-box {
+      background-color: #23cf8f;
+      margin: 10px 0;
+      border-radius: 10px;
+      text-align: center;
+      color: #fff;
+  
+      .big-text {
+        font-size: 25px;
+        margin-bottom: 8px;
+      }
+  
+      .small-text {
+        font-size: 13px;
+      }
+    }
+  
+    .gray-boxs {
+      background-color: #5f5f5f;
+      width: 96%;
+      margin: 0px 5px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      text-align: left !important;
+  
+      p {
+        color: #fff;
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+    }
+  
+    .bottom-label {
+      color: #8c8b8b;
+      margin-left: 127px;
+    }
+  }
+  

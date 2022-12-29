@@ -1,0 +1,81 @@
+.timepicker
+{
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #FFFFFF; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #FFFFFF; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #FFFFFF; 
+    }
+    position: relative;
+    .create-select {
+        width: 45% !important;
+        float: left;
+    }
+   
+    i{
+        position:absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        z-index: 99;
+    }
+    .timeList
+    {
+        width: 70%;
+        position: absolute;
+        background: #FFFFFF;
+        border: 2px solid #d9d9d9;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        height: 190px;
+        z-index: 9;
+        .hours
+        {
+            list-style-type: none;
+            width: 50%;
+            float: left;
+            overflow-y: auto;
+            height: 190px;
+            li{
+                cursor: pointer;
+                text-align: center;
+            }
+            li.hactive {
+                border: 1px solid #000000;
+                background: #0664c8;
+                color: #ffffff;
+                padding: 10px 10px 30px 10px;
+                height: 15%;
+            }
+
+        }
+        .minuts
+        {
+            list-style-type: none;
+            width: 50%;
+            float: left;
+            overflow-y: auto;
+            height: 190px;
+            li{
+                cursor: pointer;
+                text-align: center;
+            }
+            li.mactive {
+                border: 1px solid #000000;
+                background: #0664c8;
+                color: #ffffff;
+                padding: 10px 10px 30px 10px;
+                height: 15%;
+            }
+        }
+    }
+}

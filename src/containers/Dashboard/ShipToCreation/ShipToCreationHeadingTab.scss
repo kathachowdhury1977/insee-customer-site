@@ -1,0 +1,48 @@
+.shipto-heading_section{
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 2px;
+
+
+    p{
+        margin: 0;
+        padding: 12px;
+        font-weight: 600;
+    }
+
+    .fa-bars {
+        cursor: pointer;
+    }
+
+    button{
+        background-color: #ef0000;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 6px 60px;
+    }
+
+    button:hover{
+        color: #ffffff;
+    }
+
+    i{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .paddingRight{
+        padding-right: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center
+    }
+}
+
+
+.step-head {
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}

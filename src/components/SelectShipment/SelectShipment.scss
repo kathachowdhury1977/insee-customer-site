@@ -1,0 +1,23 @@
+.select_shipment {
+    background-color: #fff;
+    margin: 0px 0px;
+    box-shadow: 1px 0px 5px 1px #929292;
+
+    .clear_all {
+        border: 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+       
+        background-color: transparent;
+        @media (max-width: 900px) {
+            margin-top: 10px;
+          }
+    }
+
+    .form_section {
+        padding: 10px !important;
+
+        .inputBox {
+            margin-bottom: 15px;
+        }
+    }
+}

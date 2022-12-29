@@ -1,0 +1,62 @@
+.image-upload {
+    background-color: #ecf0f5;
+    color: #929292;
+    width: 100%;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid #bfd6f3;
+
+    i {
+        margin-right: 10px;
+        font-size: 22px;
+    }
+
+
+}
+.image-note{
+    margin-left: 20%;
+    font-size: 11px;
+}
+.image-close{
+    margin-left: 72%;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -2%;
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 3px 4px 3px 4px;
+    background: #fff;
+}
+
+.create_upload_img {
+    position: relative;
+    margin: 0px 10px;
+
+    img {
+        border-radius: 5px;
+        height: 100px;
+        width: auto;
+    
+    }
+
+    .cross_icon {
+        border-radius: 50%;
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        cursor: pointer;
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center
+    }
+}
+
+

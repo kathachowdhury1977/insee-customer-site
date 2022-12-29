@@ -1,0 +1,37 @@
+.Rectangle-2231 {
+    height: 75px;
+}
+
+@media print {
+    .leftClass {
+        padding-left: 0px;
+    }
+  
+    .main-sidebar {
+        display: block;
+    }
+
+    .languageselector {
+        -webkit-print-color-adjust: exact;   
+    }
+
+   .place-order-step-box {
+
+    .Rectangle-2231 {
+        height: 75px;
+    }
+   }
+
+     .myorders-container {
+                button:disabled{
+                    -webkit-print-color-adjust: exact; 
+                 
+                }
+
+                .create_btn {
+                    -webkit-print-color-adjust: exact; 
+                   
+                }
+            }  
+     
+}

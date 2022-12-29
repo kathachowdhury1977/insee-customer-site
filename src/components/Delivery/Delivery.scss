@@ -1,0 +1,35 @@
+.delivery-box{
+
+
+    .blue-text{
+        font-size: 18px;
+        font-weight: 600;
+        color: #178cbb;
+    }
+
+    .plain-Text{
+        font-size: 14px;
+    }
+
+    img{
+        width: inherit;
+    }
+}
+
+.arriving_date {
+    border: 1px solid #28a745;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: #00800008;
+    span {
+       color:#ff0000;
+       font-size: 12px;
+       text-transform: uppercase;
+    }
+
+    p {
+      font-size: 18p;
+      margin-bottom: 0px;
+      color:#28a745;
+    }
+}

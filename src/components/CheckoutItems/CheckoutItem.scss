@@ -1,0 +1,49 @@
+.checkout_items {
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 10px;
+
+    .item_img {
+           width: 100%;
+           height: auto;
+    }
+
+    .checkout_dtls {
+        i {
+            float: right;
+            cursor: pointer;
+            color:#929292;
+        }
+
+        h5 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+
+        .item_id {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+
+    .qty_type {
+        margin-top: 10px;
+        .count {
+            margin: 0px 15px;
+        }
+        .inweight {
+            font-weight: 600;
+            float: right;
+        }
+    }
+}
+.create_btn {
+    border:0px;
+}
+
+.create_btn:focus{
+    outline: none !important;
+}

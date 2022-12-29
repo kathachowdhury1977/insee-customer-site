@@ -1,0 +1,54 @@
+.Listing {
+
+}
+
+.list_tems {
+    margin: 10px 0px;
+    width: 100%;
+    display: inline-block;
+     
+    ul {
+        li {
+            list-style-type: none;
+            float: left;
+
+            a {
+                font-size: 12px;
+                color: #363636;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                width: 88px;
+                height: 25px;
+                margin: 0 8px 0 0;
+                padding: 4px 27px;
+                border-radius: 50px;
+                background-color: #fde4c9;
+            }
+        }
+    }
+}
+
+.location_area {
+    float: left;
+
+    span {
+        font-size: 12px;
+        margin-left: 15px;
+        color:#fff;
+        padding: 8px;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+    }
+
+    .city {
+        background-color: #f59a32;
+    }
+
+    .resident {
+        background-color: #000;
+    }
+}
+
+.clearfix {
+    clear: both;
+}

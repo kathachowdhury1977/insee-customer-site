@@ -1,0 +1,303 @@
+.qty {
+
+    i {
+        font-size: 24px;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .qty_key, .qty_value {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .qty_value {
+        i {
+          margin-left: 15px;
+        }
+    }
+
+    .qty_key {
+        i {
+          margin-left: 7px;
+        }
+    }
+
+    
+}
+.snumber
+{
+    font-size: 9px;  
+    display: flex;
+}
+
+.ponumber {
+   font-size: 10px;
+   margin-top: 16px;
+   font-weight: 600;
+   display: flex;
+}
+.QTY-40
+{
+    font-size: 10px;
+    margin-top: 6px;
+    font-weight: 500;
+    display: flex; 
+}
+
+.tqty {
+    font-size: 10px;
+    margin-top: 16px;
+    display: flex;
+    color: red;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.input_qty {
+    font-size: 10px;
+    margin-top: 16px;
+    font-weight: 500;
+    display: flex;
+    
+    input {
+        width: 40px;
+        border:0px;
+        background-color: transparent;
+        border-bottom: 1px solid #ccc;
+
+        &:focus {
+            outline: 0px;
+        }
+    }
+}
+
+.button_section {
+    margin-top: 16px;
+
+    button {
+        background-color: red;
+        font-size: 9px;
+        text-transform: uppercase;
+        color:#fff;
+        border:0px;
+        margin-left: 5px;
+        padding: 2px;
+        font-weight: 500;
+        border-radius: 2px;
+        width: 29%;
+    }
+}
+.createPickupBtn 
+{
+    width: 100%;
+    button
+    {
+        padding: 1% 10% 1% 10% !important;
+        border-radius: 25px;
+    }
+}
+.select_shipment_boxes
+{
+    .MuiDialog-paperWidthSm
+    {
+        border-radius: 15px;
+    }
+    #customized-dialog-title
+    {
+        border-bottom:1px solid rgba(196, 196, 196, 0.5);
+    }
+}
+
+.selectProductForPicupDelevery
+{
+    position: relative;
+    .product-name
+    {
+        font-size: 12px;
+        color: red;
+        display: flex;
+        word-break: break-word;
+        line-height: 1.5;
+    }
+    .pro_number
+    {
+        color: #929292 !important;
+        font-size: 12px;
+    }
+    .prod-img
+    {
+        width: 8%;
+        float: left; 
+        @media (max-width: 900px) {
+            width: 15%;
+          } 
+    }
+    .prod-name
+    {
+        width: 23%;
+        float: left;  
+        @media (max-width: 900px) {
+            width: 85%;
+          } 
+    }
+    .prod-ponumber
+    {
+        width: 13%;
+        float: left; 
+        @media (max-width: 900px) {
+            width: 50%;
+            padding-left: 10px;
+          }  
+    }
+    .prod-totalQty
+    {
+        width: 12%;
+        float: left; 
+        @media (max-width: 900px) {
+            width: 50%;
+            padding-left: 10px;
+          }  
+    }
+    .prod-RemainingQty
+    {
+        width: 15%;
+        float: left; 
+        @media (max-width: 900px) {
+            width: 50%;
+            padding-left: 10px;
+          }  
+    }
+    .prod-InputQty
+    {
+        width: 9%;
+        float: left; 
+        @media (max-width: 900px) {
+            width: 80%;
+            padding-left: 10px;
+            margin-bottom: 10px;
+          }  
+    }
+    .prodRbutton{
+        width: 7%;
+        padding: 0px 2px;
+        float: left;
+        @media (max-width: 900px) {
+            width: 20%;
+            padding-left: 10px;
+            margin-bottom: 10px;
+          } 
+    }
+}
+.ShipmentDetailsImg
+{
+    width: 6%;
+    float: left;
+    padding: 5px;
+    @media (max-width: 900px) {
+        width: 20%;
+        
+      } 
+    img 
+    {
+        height: 50px;
+        width: auto;
+        margin-top: 4px;
+    }
+}
+
+.createShipProductName {
+    width: 17%; 
+    float: left;
+    @media (max-width: 900px) {
+        width: 80%;
+        
+      } 
+}
+.createShipPoNo {
+    width: 12%; 
+    float: left;
+    padding-left: 10px;
+    @media (max-width: 900px) {
+        width: 50%;
+        
+      } 
+}
+
+.createShipSoNo {
+    width: 12%; 
+    float: left;
+    @media (max-width: 900px) {
+        width: 50%;
+        padding-left: 10px;
+        
+      } 
+    
+}
+.createShipDoNo {
+    width: 14%; 
+    float: left;
+    @media (max-width: 900px) {
+        width: 50%;
+        padding-left: 10px;
+        
+      } 
+}
+.createShipTotalQty {
+    width: 12%; 
+    float: left; 
+    @media (max-width: 900px) {
+        width: 50%;
+        padding-left: 10px;
+      } 
+}
+.createShipRemQty {
+    width: 14%; 
+    float: left; 
+    @media (max-width: 900px) {
+        width: 50%;
+        padding-left: 10px;
+        margin-bottom: 10px;
+      }  
+}
+
+.createShipQty {
+    width: 12%; 
+    float: left; 
+    padding-top: 10px;
+    padding-left: 10px;
+    @media (max-width: 900px) {
+        width: 50%;
+        padding-left: 10px;
+        margin-bottom: 10px;
+      } 
+}
+
+@media screen and(max-width:768px) {
+    .shipment-condition .status-first span:nth-child(1) {
+        font-size: 10px !important;
+    }
+   .shipment_product {
+    .ShipmentDetailsImg img {
+        height: 77px;
+    }
+    .tqty {
+        font-size: 15px;
+    }
+
+    .ponumber {
+        font-size: 15px;
+    }
+    .QTY-40 {
+        font-size: 15px;
+        margin-top: 3px;
+    }    
+   } 
+}

@@ -1,0 +1,95 @@
+@import "./assets/scss/colors.scss";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $light-gray-color;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: $dark-gray-color;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003d7d;
+}
+
+.loading {
+  margin: 70px 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.loadingOne {
+  margin: 70px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.availableCredit {
+  padding-left: 5px;
+}
+
+.payment-history {
+  .card1 {
+    width: 100%;
+  margin-top: 40px;
+  padding: 30px;
+  }
+  
+}
+.boxSuccess {
+  display: flex;
+  justify-content: flex-start;
+
+  .boxText {
+    margin-left: 20px;
+    h2 {
+      font-size: 21px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.71;
+      letter-spacing: normal;
+      text-align: left;
+      color: #0ea32f;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+    }
+}
+}
+
+.btnPayment {
+  margin-top: 20px;
+}

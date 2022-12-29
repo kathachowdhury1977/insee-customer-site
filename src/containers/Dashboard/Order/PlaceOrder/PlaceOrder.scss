@@ -1,0 +1,41 @@
+.place_order {
+    margin: 0px 15px;
+}
+
+.shadowbox{
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+    border: solid 2px #7d7d7d;
+   }
+
+
+.checkout{
+    
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 11px 15px 23px 13px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+
+    h4 {
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ff0000;
+
+        i {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px 24px 0;
+            padding: 5px;
+            background-color: #ff0000;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 22px;
+        }
+    }
+}

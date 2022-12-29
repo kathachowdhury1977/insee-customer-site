@@ -1,0 +1,19 @@
+.red_box_container{
+    border-radius: 10px;
+    background-color: red;
+    margin: 2px;
+    padding: 6px 0 9px;
+
+    .orangeText{
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .blackText{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

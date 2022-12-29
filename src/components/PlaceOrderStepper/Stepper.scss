@@ -1,0 +1,250 @@
+
+    .cart-item-container{
+        .item-heading {
+            font-size: 13px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #454545;
+          }
+    
+          .readMore{
+            height: 120px;
+          }
+    
+          .create_btn{
+            padding: 5px 21px !important;
+            
+          }
+    
+          .my-anchor-css-class{
+              color: red !important;
+          }
+    
+        
+    }
+
+    .step-cart {
+      padding: 24px;
+    }
+    
+.place-order-step-box{
+  padding: 24px;
+  .Available-Credit-THB-2047 {
+    font-size: 14.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #828282;
+  }
+  .Available-Credit-THB-2047 .text-style-1 {
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .Rectangle-2231 {
+    // width: 890px;
+    // height: 50px;
+    flex-grow: 0;
+    // margin: 4px 0 0 11px;
+    // padding: 8.3px 8px 7.7px 12.6px;
+    border: solid 1px #f1f1f1;
+    background-color: #f0f0f0;
+
+    span{
+      font-size: 10px;
+      max-width: 190px;
+     
+    }
+  }
+
+  .Rectangle-2232 {
+    height: auto;
+    flex-grow: 0;
+    border: solid 1px #f1f1f1;
+    background-color: #ffffff;
+
+   
+
+    .image-1 {
+      width: 40px;
+      height: 38.7px;
+      flex-grow: 0;
+      margin: 0 0 0.4px;
+    }
+    
+    span{
+      font-size: 11px;
+      max-width: 166px;
+      &.text-red {
+        padding-left: 10px;
+        // text-overflow: ellipsis;
+        // word-wrap: break-word;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // width: 110px;
+        // display: inline-block;
+      }
+      .productDetail {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+     
+    }
+  }
+
+  .Rectangle-2233 {
+    height: auto;
+    flex-grow: 0;
+    background-color: rgba(255, 0, 0, 0.2);
+
+    .error-text{
+      font-size: 11px;
+      font-weight: 600;
+      padding: 10px 20px !important;
+      line-height: 15px;
+      display: block;
+    }
+    
+  }
+
+  .paperTable {
+    width: 100%;
+    margin: 20px 15px;
+    .responsiveTable {
+      min-width: 700px;
+      th {
+        font-size: 13px;
+      }
+      td {
+        font-size: 13px;
+      }
+      .tableHaed {
+        background-color: #f0f0f0;
+      }
+      .redBackground {
+        height: auto;
+        flex-grow: 0;
+        background-color: rgba(255, 0, 0, 0.2);
+    
+        td{
+          font-size: 11px;
+          font-weight: 600;
+          padding: 10px 20px;
+          color: #dd4b39 ;
+        }
+        
+      }
+      .tableRow {
+        background-color: #f5f6f9;
+        td {
+          border: 0px;
+          font-size: 13px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 2.07;
+          letter-spacing: normal;
+          color: #797979;
+          padding: 5px 20px;
+        }
+        &.lastTableRow {
+          td {
+            border-top: 1px solid #ddd;
+            font-weight: 600;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    
+  }
+
+   
+
+  .Rectangle-108 {
+    height: auto;
+    flex-grow: 0;
+    background-color: #f5f6f9;
+
+    .lighttext{
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.07;
+      letter-spacing: normal;
+      text-align: left;
+      color: #797979;
+      
+    }
+
+    .darktext{
+      font-size: 13px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.07;
+      letter-spacing: normal;
+      text-align: right;
+      color: #454545;
+    }
+  }
+
+  .Rectangle-10887 {
+    height: 45px;
+    flex-grow: 0;
+    background-color: #f5f6f9;
+    border-top: 1px solid #c1c1c1;
+
+    .lighttext{
+      font-size: 15px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.07;
+      letter-spacing: normal;
+      text-align: left;
+      color: #797979;
+    }
+
+    .darktext{
+      font-size: 15px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.07;
+      letter-spacing: normal;
+      text-align: right;
+      color: #454545;
+    }
+  }
+}
+
+.form_section{
+  .shipto-detail{
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .remarksOrder {
+    border: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    &:focus {
+      border: 0px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      width: 100%;
+      box-shadow: none;
+    }
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+}

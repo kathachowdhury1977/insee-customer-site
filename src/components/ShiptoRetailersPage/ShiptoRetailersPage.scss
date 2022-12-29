@@ -1,0 +1,132 @@
+.ship_retailer_page {
+    padding: 20px 15px 20px 15px;
+    background: #F1F1F1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+    .retailer_head_sec {
+        display: flex;
+        justify-content: space-between;
+        color:#003d7d;
+        font-size: 12px;
+        font-weight: 600;
+
+        h5 {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    .ship_retailer_detail {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+        border-radius: 4px;
+        margin: auto;
+        padding: 20px 15px 20px 15px;
+        width: 22%;
+        float: left;
+        margin-right: 16px;
+        margin-left: 12px;
+        margin-bottom: 15px;
+    }
+
+    .district_sec {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;   
+        padding-top: 4px;
+        margin-top: 5px;
+
+        h6 {
+            font-size: 12px;
+            font-weight: 600;
+            color:#929292;
+            text-transform: uppercase;
+        }
+        
+    }
+    .dist_title_sec {
+        width: 50%;
+        float: left;
+        .dist_title
+        {
+            font-weight: normal;
+            font-size: 8px;
+            line-height: 8px;
+            /* identical to box height, or 225% */
+            text-transform: uppercase;
+            color: #727272;
+        }
+        .dist_name
+        {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 8px;
+            float: left;
+            color: #363636;
+            text-transform: capitalize;
+        }
+        
+        
+    }
+
+    .dist_value_sec {
+        float: left;
+        text-align: right;
+        width: 50%;
+        .dist_value
+        {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 8px;
+            color: #363636;
+            text-transform: capitalize;
+        }
+        .dist_value_title
+        {
+            font-weight: normal;
+            font-size: 8px;
+            line-height: 8px;
+            /* identical to box height, or 225% */
+            text-transform: uppercase;
+            color: #727272;
+        }
+        
+        
+    }
+
+}
+.district_page
+{
+    background: #F1F1F1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    // height: 64px;
+    .district_tile
+    {
+        padding: 10px 0 0 20px;
+        .dist_head_tit
+        {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 225% */
+            text-transform: uppercase;
+            color: #727272;
+        }
+        .dist_head_val
+        {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 108% */
+            /* Secondary Black */
+            color: #363636;
+        }
+    }
+}
+

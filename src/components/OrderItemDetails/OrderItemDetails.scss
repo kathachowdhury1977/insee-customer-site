@@ -1,0 +1,35 @@
+.order-item-details{
+    .light-text{
+        font-size: 13px;
+        font-weight: 600;
+        color: darkgray;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+    }
+
+    .dark-text{
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    .yellow-box{
+        border: 2px solid #e2813c;
+    border-radius: 12px;
+    background-color: #f5d1d1;
+
+        .top-text{
+            font-size: 13px;
+            font-weight: 600;
+            color:  #e2813c;
+        }
+
+        .bottom-text{
+            font-size: 13px;
+        }
+    }
+
+    .borderLine{
+        border-bottom: 1px solid #bfbfbf;
+    }
+}

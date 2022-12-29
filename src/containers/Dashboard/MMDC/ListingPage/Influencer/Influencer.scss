@@ -1,0 +1,90 @@
+.influncer-section {
+    background-color: #fff;
+    padding: 16px 0px 0px 0px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+    border-radius: 4px;
+
+    .infunce_dtls {
+         h4 {
+             font-size: 16px;
+             color:#363636;
+             margin-bottom: 12px;
+         }
+
+         span {
+             
+             color:#929292;
+             font-size: 12px;
+             display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 15px;
+                margin-right: 5px;
+            }
+
+         }
+    }
+
+    .status {
+        border-top: 1px solid #eee;
+        padding: 10px 10px;
+    }
+
+    .call_sec {
+        img {
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        span{
+            font-size: 10px;
+            color: #8a7967;
+        }
+    }
+}
+
+.influncer-section  {
+    padding: 0px 13px 13px 15px !important;
+
+    .influnce_bg {
+        width: calc(100% - 2px);
+        margin-bottom: 20px;
+        border-radius: 4px 4px 0px 0px;
+        height: auto;
+    }
+
+    .cement_sec {
+        width: 100%;
+        display: inline-flex;
+        margin-top: 10px;
+
+        span {
+            color:#fff;
+            padding: 6px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 30%;
+            text-align: center;
+            margin-right: 25px;
+        }
+
+        span:nth-child(3) {
+            margin-right: 0px;
+        }
+
+        .scg_bgcolor {
+            background-color: #8a7967;
+        }
+
+        .thai_bgcolor {
+            background-color: #c14752;
+        }
+
+        .ambuja_bgcolor {
+            background-color: #6d9a5b;
+        }
+    }
+}

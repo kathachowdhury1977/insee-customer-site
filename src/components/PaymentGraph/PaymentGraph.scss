@@ -1,0 +1,59 @@
+.payment_graph_container{
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    background-color: #e4e4e4;
+    margin-top: 15px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #d2d2d2;
+    padding: 15px;
+    float: left;
+    min-width: 100%;
+
+    .out_standing_amt_heading{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    
+
+    .textDark{
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .textLight{
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        color: #8e8c8c;
+
+        span{
+            font-size: 11px;
+            font-weight: 600;
+            color: #000;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+    }
+
+    .form_section{
+        padding: 0px;
+
+        .inputBox{
+            margin-bottom: 0px;
+            margin-top: 0px;
+
+            .btn, .btn-primary{
+                background-color: #e4e4e4;
+                border:  #e4e4e4;
+
+                i{
+                    color: #545454;
+                }
+            }
+        }
+    }
+}
